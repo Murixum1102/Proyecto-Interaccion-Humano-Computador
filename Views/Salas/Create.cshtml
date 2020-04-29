@@ -1,10 +1,10 @@
 ﻿@model Ihc.Models.Sala
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Reservar Sala";
 }
 
-<h1>Create</h1>
+<h1>Reservar Sala</h1>
 
 <h4>Sala</h4>
 <hr />
@@ -13,8 +13,13 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="NombreSala" class="control-label"></label>
-                <input asp-for="NombreSala" class="form-control" />
+                <label asp-for="NombreSala" class="control-label"></label>                
+                <select asp-for="NombreSala" class="form-control">
+                    <option value="Sala1">Sala 1</option>
+                    <option value="Sala2">Sala 2</option>
+                    <option value="Sala3">Sala 3</option>
+                    <option value="Sala4">Sala 4</option>
+                </select>
                 <span asp-validation-for="NombreSala" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -45,7 +50,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Regresar a Reserva de Salas</a>
 </div>
 
 @section Scripts {
