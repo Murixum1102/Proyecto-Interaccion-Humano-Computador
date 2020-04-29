@@ -34,27 +34,37 @@
             </div>
             <div class="form-group">
                 <label asp-for="Entidad" class="control-label"></label>
-                <input asp-for="Entidad" class="form-control" />
+                <select asp-for="Entidad" class="form-control">
+                    <option value="Pública">Pública</option>
+                    <option value="Privada">Privada</option>
+                </select>
                 <span asp-validation-for="Entidad" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Area" class="control-label"></label>
-                <input asp-for="Area" class="form-control" />
+                <label asp-for="Area" class="control-label"></label>                
+                <select asp-for="Area" class="form-control">
+                    <option value="Administración">Administración</option>
+                    <option value="Facturación-Conciliación">Facturación-Conciliación</option>
+                    <option value="GerenciaTI">Gerencia TI</option>
+                    <option value="Proveedor">Proveedor</option>
+                    <option value="Seguridad">Seguridad</option>
+                    <option value="Técnica">Técnica</option>
+                </select>
                 <span asp-validation-for="Area" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Telefono" class="control-label"></label>
-                <input asp-for="Telefono" class="form-control" />
+                <input type="number" asp-for="Telefono" class="form-control" />
                 <span asp-validation-for="Telefono" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Correo" class="control-label"></label>
-                <input asp-for="Correo" class="form-control" />
+                <input type="email" asp-for="Correo" class="form-control" />
                 <span asp-validation-for="Correo" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Descripcion" class="control-label"></label>
-                <input asp-for="Descripcion" class="form-control" />
+                <input type="text" asp-for="Descripcion" class="form-control" />
                 <span asp-validation-for="Descripcion" class="text-danger"></span>
             </div>
             <div class="form-group">

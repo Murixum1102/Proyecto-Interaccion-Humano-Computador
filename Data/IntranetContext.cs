@@ -14,5 +14,7 @@ namespace Ihc.Data
         public DbSet<Sala> Sala { get; set; }
         public DbSet<Solicitud> Solicitud { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Ihc.Models.Formulario> Formulario { get; set; }
+        public DbSet<Ihc.Models.Noticia> Noticia { get; set; }
     }
 }

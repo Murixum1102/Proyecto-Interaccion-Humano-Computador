@@ -12,5 +12,29 @@ namespace Ihc.Controllers
         {
             return View();
         }
+        public IActionResult CamaraCompensacion()
+        {
+            return View();
+        }
+        public IActionResult ArchivoDigitalizacion()
+        {
+            return View();
+        }
+        public IActionResult ConsultaEmbargos()
+        {
+            return View();
+        }
+        public IActionResult OutsourcingRecursoHumano()
+        {
+            return View();
+        }
+        public IActionResult ServicioMensajeria()
+        {
+            return View();
+        }
+        public IActionResult ServiciosTerceroProcesos()
+        {
+            return View();
+        }
     }
 }

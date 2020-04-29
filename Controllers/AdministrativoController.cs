@@ -12,5 +12,25 @@ namespace Ihc.Controllers
         {
             return View();
         }
+
+        public IActionResult Proveedores()
+        {
+            return View();
+        }
+
+        public IActionResult SolicitudProveeduria()
+        {
+            return View();
+        }
+
+        public IActionResult BoletaVacaciones()
+        {
+            return View();
+        }
+
+        public IActionResult FormulariosOficiales()
+        {
+            return View();
+        }
     }
 }

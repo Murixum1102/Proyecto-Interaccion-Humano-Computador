@@ -55,6 +55,54 @@ namespace Ihc.Migrations
                     b.ToTable("Contacto");
                 });
 
+            modelBuilder.Entity("Ihc.Models.Formulario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<byte[]>("Archivo")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("CodigoFormulario")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreFormulario")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Formulario");
+                });
+
+            modelBuilder.Entity("Ihc.Models.Noticia", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Autor")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Contenido")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaPublicacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Imagen")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Titulo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Noticia");
+                });
+
             modelBuilder.Entity("Ihc.Models.Sala", b =>
                 {
                     b.Property<int>("Id")
