@@ -180,3 +180,8 @@ C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Del
 C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Details.cshtml.g.cs
 C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Edit.cshtml.g.cs
 C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Index.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Administrativo\Index.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Gerencia\Index.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Noticias\Index.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Outsourcing\Index.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Tecnologia\Index.cshtml.g.cs
