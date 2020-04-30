@@ -205,3 +205,13 @@ C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Noticias1\De
 C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Noticias1\Details.cshtml.g.cs
 C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Noticias1\Edit.cshtml.g.cs
 C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Noticias1\Index.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Empleados\Create.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Empleados\Delete.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Empleados\Details.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Empleados\Edit.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\Empleados\Index.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\SolicitudVacaciones\Create.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\SolicitudVacaciones\Delete.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\SolicitudVacaciones\Details.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\SolicitudVacaciones\Edit.cshtml.g.cs
+C:\Users\murip\source\repos\Ihc\obj\Debug\netcoreapp3.1\Razor\Views\SolicitudVacaciones\Index.cshtml.g.cs
